@@ -18,8 +18,8 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// API base URL - adjust to match your backend
-const API_BASE_URL = 'http://localhost:3001/api/v1/users';
+const API_BASE_URL = import.meta.env.VITE_API_URL;
+
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
