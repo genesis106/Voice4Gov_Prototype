@@ -39,7 +39,7 @@ const Login = () => {
     if (result.error) {
       setError(result.error);
     }else {
-  window.location.href = 'http://localhost:8081/';
+  window.location.href = import.meta.env.VITE_API_URL_F;
 }
 
   };
