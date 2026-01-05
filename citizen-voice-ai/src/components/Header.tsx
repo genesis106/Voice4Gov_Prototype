@@ -11,7 +11,7 @@ const Header = () => {
 
   const handleLogout = async () => {
     await logout(); // backend clears cookie
-    window.location.href = "http://localhost:8082/";
+    window.location.href = import.meta.env.VITE_API_URL_H;
   };
 
 
@@ -57,7 +57,7 @@ const Header = () => {
               <>
                 <Button variant="outline" className="w-full" asChild>
                   <a
-                    href="http://localhost:8081/"
+                    href={import.meta.env.VITE_API_URL_F}
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Dashboard
@@ -108,7 +108,7 @@ const Header = () => {
                 {user ? (
                   <>
                     <Button variant="ghost" size="sm" asChild>
-                      <a href="http://localhost:8081/">Dashboard</a>
+<a href={import.meta.env.VITE_API_URL_F}>Dashboard</a>
                     </Button>
 
                     <Button variant="outline" className="w-full" onClick={handleLogout}>
