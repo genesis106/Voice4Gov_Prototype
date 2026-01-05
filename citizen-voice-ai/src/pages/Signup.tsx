@@ -59,7 +59,7 @@ const Signup = () => {
       setError(result.error);
     } else {
       // Successfully signed up and logged in, navigate to dashboard
-window.location.href = 'http://localhost:8081';
+window.location.href = import.meta.env.VITE_API_URL_F;
     }
   };
 
