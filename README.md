@@ -6,7 +6,7 @@
 
 **AI Voice Agents for Government Surveys, Forms & Grievance Redressal**
 
-Voice4Gov AI is a **voice-first AI platform** that enables government agencies to conduct surveys, fill forms, and register citizen grievances through **simple phone calls**. The system uses **conversational AI** to interact with citizens in natural language, automatically capturing structured data with high accuracy—no smartphone, app, or internet required.
+Voice4Gov AI is a **voice-first AI platform** that enables government agencies to conduct surveys, fill forms, and register citizen grievances through **simple phone calls**. The system uses **conversational AI** to interact with citizens in natural language, automatically capturing structured data with high accuracy, no smartphone, app, or internet required.
 
 ## 🚀 Problem Statement
 
