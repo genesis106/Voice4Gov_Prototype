@@ -4,9 +4,9 @@
 
 # 🎙️ Voice4Gov AI
 <p align="center">
-  <img src="citizen-voice-ai/public/Homepage1.png" width="300"/>
-  <img src="citizen-voice-ai/public/AgentDashboard.png" width="300"/>
-  <img src="citizen-voice-ai/public/AgentCreation.png" width="300"/>
+  <img src="citizen-voice-ai/public/Homepage1" width="300"/>
+  <img src="citizen-voice-ai/public/AgentDashboard" width="300"/>
+  <img src="citizen-voice-ai/public/AgentCreation" width="300"/>
 </p>
 
 **AI Voice Agents for Government Surveys, Forms & Grievance Redressal**
