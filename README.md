@@ -7,6 +7,9 @@
   <img src="citizen-voice-ai/public/Homepage1" width="300"/>
   <img src="citizen-voice-ai/public/AgentDashboard" width="300"/>
   <img src="citizen-voice-ai/public/AgentCreation" width="300"/>
+    <img src="citizen-voice-ai/public/HomepageSS2" width="300"/>
+  <img src="citizen-voice-ai/public/HomepageSS3" width="300"/>
+  <img src="citizen-voice-ai/public/HomepageSS4" width="300"/>
 </p>
 
 **AI Voice Agents for Government Surveys, Forms & Grievance Redressal**
