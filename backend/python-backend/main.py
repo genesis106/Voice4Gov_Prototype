@@ -385,7 +385,7 @@ async def router(ws):
 # ================== MAIN ==================
 async def main():
     print("🚀 Server running on ws://localhost:5004")
-    async with websockets.serve(router, "localhost", 5004):
+    async with websockets.serve(router, "localhost", os.getenv("PORT")):
         await asyncio.Future()
 
 
